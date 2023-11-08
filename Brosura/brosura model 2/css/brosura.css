@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.brochure {
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    border-radius: 15px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(16, 28, 134);
+}
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+}
+.content {
+    margin-bottom: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section-content {
+    font-size: 14px;
+    color: #333;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.image-row-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.image-row-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.brochure-image {
+    width: 30%;
+    height: auto;
+}
